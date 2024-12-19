@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "my-app",
+    "name": "voice",
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vasylbatih.myapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ccbc7cf2-edbc-4e2c-82a0-b843fbde777e"
+      }
     }
   }
 }
